@@ -1,2 +1,5 @@
 # system_trading
-trading system development
+
+
+## DATA BASE setting
+- 
