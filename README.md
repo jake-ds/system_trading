@@ -1,5 +1,5 @@
 # system_trading
 
 
-## DATA BASE setting
-- 
+### DATA BASE SETTING
+- MySQL install[https://withcoding.com/26]
