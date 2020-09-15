@@ -12,9 +12,9 @@
   2) choose MySQL
   3) input Database, password, (MySQL default Port : 3306)
   4) test connection 
-    -> error accrue : dbeaver unable to load authentication plugin 'caching_sha2_password'
-    -> have to change authentication method at MySQL Command Line Client
-       insert "Alter USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'abc';
-       (root = user name, abc = password)
+      -> error accrue : dbeaver unable to load authentication plugin 'caching_sha2_password'
+      -> have to change authentication method at MySQL Command Line Client
+      insert "Alter USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'abc';
+      (root = user name, abc = password)
        
        
