@@ -19,3 +19,7 @@
 - DB Connecting
 - Create Table
 - Select Table 
+
+
+### set_stock_master.py
+- kospi / kosdaq stock list 
