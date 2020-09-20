@@ -15,6 +15,10 @@
     insert <Alter USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'abc';> 
     (root = user name, abc = password)
 
+### db_info.txt
+ 
+
+
 ### db_connect.ipynb
 - DB Connecting
 - Create Table
@@ -23,3 +27,6 @@
 
 ### set_stock_master.py
 - kospi / kosdaq stock list 
+
+
+
