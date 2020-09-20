@@ -15,9 +15,23 @@
     insert <Alter USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'abc';> 
     (root = user name, abc = password)
 
-### db_info.txt
- 
+### db_info.py
 
+db_info = {
+    "stock" : {
+        "host" : "localhost",
+        "port" : 3306,
+        "user" : "root",
+        "passwd" : "password",
+        "db" : "db_name",
+        "charset" : "utf8"
+    }
+
+}
+
+def db_info_get(db_name):
+    return db_info[db_name]
+ 
 
 ### db_connect.ipynb
 - DB Connecting
