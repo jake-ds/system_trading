@@ -17,7 +17,7 @@
 
 ### db_info.py
 
-db_info = {
+- db_info = {
     "stock" : {
         "host" : "localhost",
         "port" : 3306,
@@ -28,7 +28,7 @@ db_info = {
     }
 }
 
-def db_info_get(db_name):
+- def db_info_get(db_name):
     return db_info[db_name]
  
 
