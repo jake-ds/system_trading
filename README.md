@@ -26,7 +26,6 @@ db_info = {
         "db" : "db_name",
         "charset" : "utf8"
     }
-
 }
 
 def db_info_get(db_name):
